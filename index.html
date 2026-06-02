@@ -1,40 +1,42 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Hanson's Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <body>
-        <nav>
-            <div class="nav-inner">
-
-                <!--making a change-->
-                <!-- Home -->
-                <a href="/portfolio/" class="nav-home">
-                    <span class="home-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px">
-                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
-                        </svg>
-                    </span>
-                    Home
-                </a>
-
-                <!-- Page links -->
-                <ul class="nav-links" id="navlinks">
-                    <li><a href="/portfolio/about.html">About</a></li>
-                    <li><a href="/portfolio/projects.html">Projects</a></li>
-                    <li><a href="/portfolio/contact.html">Contact</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jacob Hanson's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body> 
+        <nav class="navbar">
+            <div class="max-width"> 
+                <div class="logo"><a href="#">Jacob <span>Hanson</span></a></div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
+
+        <!-- Home-->
+         <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hey! My name is</div>
+                    <div class="text-2">Jacob Hanson</div>
+                    <div class="text-3">I'm a <span>Mechanical Engineer</span></div>
+                </div>
+            </div>
+         </section>
+ 
     </body>
 </html>
-
-
-
-
-
-
-
-
