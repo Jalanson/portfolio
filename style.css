@@ -117,8 +117,8 @@
 
 .profile-pic {
     display: flex;
-    position: absolute;
-    right: 50px;
+    position: sticky;
+    right: 75%;
     top: 50%;
     transform: translateY(-50%);
 }
