@@ -116,6 +116,7 @@
 }
 
 .profile-pic {
+    display: flex;
     position: absolute;
     right: 50px;
     top: 50%;
