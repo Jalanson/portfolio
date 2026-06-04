@@ -115,12 +115,54 @@
     font-weight: 500;
 }
 
+/* Profile picture — right side of hero */
 .profile-pic {
+    flex-shrink: 0;
     display: flex;
-    position: sticky;
-    right: 75%;
-    top: 50%;
-    transform: translateY(-50%);
+    align-items: center;
+    justify-content: flex-end;
+}
+ 
+.profile-pic img {
+    max-height: 60vh;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+ 
+/* about section styling */
+.about {
+    background: var(--hbg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    padding: 100px 0;
+    /* offset scroll target so the fixed navbar doesn't cover the heading */
+    scroll-margin-top: 70px;
+}
+ 
+.about .max-width {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+ 
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid var(--span-text-color);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+ 
+.section-title span {
+    color: var(--span-text-color);
+}
+ 
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 700px;
+    color: #b0ada9;
 }
 
 @media (max-width: 900px) {
