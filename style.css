@@ -168,7 +168,7 @@
     color: #b0ada9;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .max-width {
         padding: 0 50px;
     }
