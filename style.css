@@ -98,7 +98,10 @@
 }
 
 .home .max-width {
-    margin:auto 0 auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .home .home-content .text-1 {
     font-size: 27px;
