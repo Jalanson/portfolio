@@ -165,13 +165,17 @@
 .about-content p {
     font-size: 18px;
     line-height: 1.8;
-    max-width: 700px;
     color: #b0ada9;
 }
 
 @media (max-width: 900px) {
     .max-width {
         padding: 0 50px;
+    }
+
+    /* Hide the profile picture before it squeezes the intro text */
+    .profile-pic {
+        display: none;
     }
 
     .menu-btn {
