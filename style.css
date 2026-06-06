@@ -168,6 +168,18 @@
     color: #b0ada9;
 }
 
+/* project page */
+.project {
+    display: flex;
+    outline: 50px solid red;
+    /*background: var(--bg-color);*/
+    height: 100vh;
+    /*color: var(--text-color);*/
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+}
+
 @media (max-width: 1200px) {
     .max-width {
         padding: 0 50px;
