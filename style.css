@@ -171,10 +171,31 @@
 /* project page */
 .project {
     display: flex;
-    outline: 50px solid red;
-    /*background: var(--bg-color);*/
+    background: var(--bg-color);
     height: 100vh;
-    /*color: var(--text-color);*/
+    color: var(--text-color);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+}
+
+/* skill page */
+.skills {
+    display: flex;
+    background: var(--bg-color);
+    height: 100vh;
+    color: var(--text-color);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+}
+
+/* contact page */
+.contact {
+    display: flex;
+    background: var(--bg-color);
+    height: 100vh;
+    color: var(--text-color);
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Inter', sans-serif;
